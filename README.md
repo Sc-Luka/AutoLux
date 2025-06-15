@@ -1,49 +1,40 @@
-Project Overview
-AutoLux is a modern, responsive premium car dealership website featuring luxury vehicle showcases, user authentication, shopping cart functionality, and contact management. This single-page application provides a seamless user experience across all devices.
+# 🚘 AutoLux - Premium Car Dealership SPA
 
-Key Features:
-🚗 Dynamic Car Gallery
+**AutoLux** is a sleek, modern **Single Page Application (SPA)** built for a premium car dealership. It features a responsive design, dynamic UI interactions, secure authentication, and shopping cart functionality—offering users an immersive and seamless browsing experience across all devices.
 
-Filter vehicles by category (Luxury, Sport, SUV, Electric, Classic, Truck)
+---
 
-Real-time card animations on hover
+## 🌟 Key Features
 
-Add-to-cart functionality with quantity controls
+### 🚗 Dynamic Car Gallery
+- Filter vehicles by category: `Luxury`, `Sport`, `SUV`, `Electric`, `Classic`, `Truck`
+- Real-time card animations on hover
+- Add vehicles to cart with quantity controls
 
-🔐 User Authentication
+### 🔐 User Authentication
+- Secure login and registration system
+- Session persistence via `localStorage`
+- Protected cart access for logged-in users only
 
-Login/registration system
+### 🛒 Shopping Cart
+- Add or remove vehicles dynamically
+- Update quantities in real-time
+- Auto-update total price
+- Simulated secure checkout flow
 
-Session persistence using localStorage
+### 📝 Contact Management
+- Validated contact form with interactive budget slider
+- Save customer inquiries locally
+- Download or delete order/inquiry history
+- Export order data as `.json`
 
-Protected cart functionality (requires login)
+---
 
-🛒 Shopping Cart
+## ⚙️ Tech Stack
 
-Add/remove items
+- **Frontend**: HTML5, CSS3 (Flexbox & Grid), JavaScript (ES6+)
+- **Libraries**: jQuery 3.6.0
+- **Animations**: Custom CSS Keyframes
+- **Responsive Design**: Mobile-first, with media queries
 
-Quantity adjustments
-
-Real-time total calculation
-
-Secure checkout simulation
-
-📝 Contact Management
-
-Form validation with budget slider
-
-Save inquiries to localStorage
-
-Download/delete order history
-
-JSON export functionality
-
-Tech Stack:
-
-Frontend: HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+)
-
-Libraries: jQuery 3.6.0
-
-Animations: Custom CSS keyframes
-
-Responsive Design: Mobile-first approach with media queries
+---
